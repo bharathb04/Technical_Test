@@ -1,9 +1,11 @@
 function finOutput() {
   
   var n1 = document.getElementByName("finGrossIncome");
+  var n2 = document.getElementByName("finRentalIncome");
+  var n3 = document.getElementByName("finChildren");
   
-If(isNaN(n1)){
-     alert("The value of Gross Income has to be numeric, please enter a valid value");
+If(isNaN(n1) && isNAN(n2) && isNAN(n3)){
+     alert("One or more of the input fields is/are not numeric, please enter a valid value");
      return false;
   }else{
      alert("It's fine");
@@ -11,3 +13,6 @@ If(isNaN(n1)){
   }  
 }
   
+
+
+
