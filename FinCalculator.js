@@ -1,4 +1,5 @@
 function finOutput() {
+  alert("in fubction");    
   var n1 = document.getElementByName("finGrossIncome");
  
   If(isNaN(n1)){
